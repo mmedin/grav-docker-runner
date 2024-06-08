@@ -10,6 +10,9 @@ This image is intended to help with testing [Grav CMS](https://getgrav.org), a m
 
 The idea is that, by using this image, you can avoid the local installation of Apache, PHP, other tools and all the libraries needed to run Grav.
 
+> [!IMPORTANT]
+> This container image does NOT contain Grav, it only has the environment to run it.
+
 ## Some of the components included
 
 - Apache 2.x
