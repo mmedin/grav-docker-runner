@@ -57,4 +57,4 @@ Once inside the container's bash console, we can run the command suggested in th
 bin/grav install
 ```
 
-Ahora sí, podemos acceder a http://localhost para comenzar a usar Grav.
+Now we can access http://localhost to start using Grav.
