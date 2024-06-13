@@ -7,8 +7,8 @@ RUN apt-get update \
     && apt-get install -y git rsync zip \
     && apt-get install -y libzip-dev libpng-dev libjpeg-dev zlib1g-dev \
     && rm -rf /var/lib/apt/lists/* \
-    && docker-php-ext-install gd opcache zip  \
-    && docker-php-ext-configure gd --with-jpeg=/usr
+    && docker-php-ext-configure gd --with-jpeg \
+    && docker-php-ext-install gd opcache zip
 
 # set recommended PHP.ini settings
 # see https://secure.php.net/manual/en/opcache.installation.php
